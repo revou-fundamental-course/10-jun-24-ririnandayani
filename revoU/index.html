@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter Temperature</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Converter Temperature</h1>
+    </header>
+    <main>
+        <section class="subject-instruction">
+            <p>Masukkan suhu derajat Celcius (&deg;C) lalu tekan konversi untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (&deg;F) dan klik reverse jika ingin mengkonversi dari bentuk Fahrenheit (&deg;F) ke derajat Celcius (&deg;C)!</p>
+        </section>
+        <section class="container-input">
+            <section id="celcius">
+                <h3>Celcius (&deg;C) :</h3>
+                <textarea class="container-celcius" id="inputCelcius"></textarea><br>
+                <a><button class="button skyblue-color" id="convertBTN">Konversi</button></a>
+            </section>
+            <section id="fahrenheit">
+                <h3>Fahrenheit (&deg;F) :</h3>
+                <textarea class="container-fahrenheit" id="inputFahrenheit"></textarea><br>
+                <a><button class="button flowerblue-color" id="reverseBTN">Reverse</button></a>
+                <a><button class="button red-color" id="resetBTN">Reset</button></a>
+            </section>
+        </section>
+        <section class="container-output" id="formula">
+            <h3>Cara Kalkulasi :</h3>
+            <textarea class="container-result" readonly></textarea>
+            <hr>
+        </section>
+        <section class="container-info">
+            <h1>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
+            <p>Suhu <span class="subject-info">S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span class="subject-info">S</span> dalam derajat Celcius (&deg;C) kali 9/5 tambah 32.</p>
+            <p><span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> x 9/5) + 32</p>
+            <p>atau</p>
+            <p><span class="subject-info">S</span><sub>(&deg;F)</sub> = (<span class="subject-info">S</span><sub>(&deg;C)</sub> x 1.8) + 32</p>
+            <hr>
+        </section>
+        <section class="container-informationFahrenheit">
+            <h1>Cara Konversi Dari Fahrenheit (&deg;F) ke Celcius (&deg;C)</h1>
+            <p>Suhu <span class="subject-info">S</span> dalam derajat Celcius (&deg;C) sama dengan suhu <span class="subject-info">S</span> dalam derajat Fahrenheit (&deg;F) kurang 32 dibagi 1.8.</p>
+            <p><span class="subject-info">S</span><sub>(&deg;C)</sub> = (<span class="subject-info">S</span><sub>(&deg;F)</sub> - 32) / 1.8</p>
+        </section>
+    </main>
+    <footer>
+        <h2>Ririn andayani_ RevoU 
+        </h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
